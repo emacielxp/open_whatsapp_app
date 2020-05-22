@@ -33,7 +33,6 @@ export default class App extends Component {
           onChangeText={mobile_no => this.setState({ mobile_no })}
           placeholder={'Enter Mobile'}
           style={styles.input}
-          keyboardType={'numeric'}
         />
         <View style={{marginTop:20}}>
           <Button
